@@ -1,0 +1,15 @@
+const Footer = () => {
+  return (
+    <footer className="bg-[#0A0A0A] border-t border-[rgba(212,175,55,0.2)] py-4">
+      <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-start">
+          <div className="text-[#A0A0A0] text-sm">
+            &copy; {new Date().getFullYear()} Barbearia Navalha. Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;

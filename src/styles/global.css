@@ -1,1 +1,6 @@
 @import "tailwindcss";
+/* No seu arquivo CSS global */
+body, html {
+  background-color: #0d0d0d; /* A mesma cor de fundo do seu Hero */
+  color: #ffffff;
+}

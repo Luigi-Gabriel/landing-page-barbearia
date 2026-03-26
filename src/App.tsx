@@ -1,16 +1,19 @@
+import Header from './components/shared/header';
+import Hero from './components/shared/hero';
+import Footer from './components/shared/footer';
 
-
-import './App.css'
-import Header from './components/shared/header'
-
-function App() {
-  
-
+export default function App() {
   return (
-    <>
-    <Header />
-    </>
-  )
-}
+    <div className="flex flex-col min-h-screen bg-[#0d0d0d]">
+      
+      <Header />
 
-export default App
+      <main className="grow pt-24"> 
+        <Hero />
+      </main>
+
+      <Footer />
+      
+    </div>
+  );
+}
